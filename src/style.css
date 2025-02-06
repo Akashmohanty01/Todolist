@@ -1,0 +1,159 @@
+
+.todo-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+    text-align: center;
+    color: #333;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.input-box {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.add-btn {
+    width: 25%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+
+.divider {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+
+.task-title {
+    color: #333;
+    text-align: center;
+}
+
+.todo-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+
+.todo-text {
+    font-size: 18px;
+    flex: 1;
+}
+
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+
+.delete-btn, .done-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.done-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.done-btn:hover {
+    background-color: #45a049;
+}
+
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.uppercase-btn, .mark-all-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.uppercase-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.mark-all-btn {
+    background-color: #673ab7;
+    color: white;
+}
+
+.uppercase-btn:hover {
+    background-color: #1976d2;
+}
+
+.mark-all-btn:hover {
+    background-color: #5e35b1;
+}
+
+
+
+.todo-text {
+    font-size: 18px;
+    flex: 1;
+    color: black; 
+    background-color: transparent; 
+    background-color: rgb(17, 149, 226);
+}
+
